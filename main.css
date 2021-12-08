@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --height-header: 70px
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #F4F7FA!important;
+}
+
+.header {
+    padding: 6px 0;
+    background-image: linear-gradient(90deg, #212879, #922AE3);
+}
+
+#modi a {
+    display: inline-block;
+    color: #fff;
+}
+
+#logo {
+    font-size: 30px;
+}
+
+.content h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.content p, .content span {
+    color: rgb(158, 156, 156);
+    text-align: justify;
+}
+
+.content h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.content input, .content textarea {
+    width: 100%;
+    padding: 15px 10px;
+    outline: none;
+    border: 2px solid transparent;
+    font-size: 14px;
+    background-color: #fff;
+    /* margin-bottom: 15px; */
+    border-radius: 5px;
+}
+
+.invalid {
+    margin-top: 4px;
+    color: red;
+    display: none;
+}
+
+#phone, #company, .content textarea {
+    margin-top: 15px;
+}
+
+.content button {
+    color: #fff;
+    background: #9976EB;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border: 2px solid transparent;
+    outline: none;
+}
+
+.content input:focus {
+    border: 2px solid #9976EB;
+}
+
+.content button:hover {
+    border: 2px solid #9976EB;
+    background-color: transparent;
+    color: rgb(170, 170, 170);
+}
+
+@media screen and (max-width: 768px) {
+    #email {
+        margin-top: 10px;
+    }
+}
+
+#noti {
+    margin-top: 15px;
+    display: none;
+}
