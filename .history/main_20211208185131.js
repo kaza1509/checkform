@@ -129,7 +129,7 @@ button.addEventListener('click', () => {
     if(success.length == 5) {
         let noti = document.getElementById('noti')
         noti.style.display = 'block'
-        // console.log(noti);
+        console.log();
     }
 })
 
