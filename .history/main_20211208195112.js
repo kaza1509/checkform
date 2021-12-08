@@ -130,7 +130,7 @@ button.addEventListener('click', () => {
         let noti = document.getElementById('noti')
         noti.style.display = 'block'
         //--------------------------------------
-        window.location = 'https://www.facebook.com/kaza15092001/'
+        window.location = ''
     }
 })
 
