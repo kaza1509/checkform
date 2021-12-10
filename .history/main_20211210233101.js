@@ -126,12 +126,12 @@ button.addEventListener('click', () => {
         textarea.style.border =  borderSucess
         // success.push(0)
     }
-    // if(success.length == 5) {
-    //     let noti = document.getElementById('noti')
-    //     noti.style.display = 'block'
-    //     //--------------------------------------
-    //     window.location = 'https://www.facebook.com/kaza15092001/'
-    // }
+    if(success.length == 5) {
+        let noti = document.getElementById('noti')
+        noti.style.display = 'block'
+        //--------------------------------------
+        window.location = 'https://www.facebook.com/kaza15092001/'
+    }
 })
 
 button.addEventListener('click', (e) => {
